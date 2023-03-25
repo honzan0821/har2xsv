@@ -1,10 +1,10 @@
-# Har2Csv
+# Har2Xsv
 
 > Convert HTTP session HAR file logs into XSV(CSV, TSV,etc) format
 
 This CLI tool provides you with an easy way to
 convert [HAR file](http://www.softwareishard.com/blog/har-12-spec/) HTTP log entries into a flat
-CSV, TSV format to make it easier to analyze.
+CSV, TSV, etc, format to make it easier to analyze.
 This tool ignores fields that are not essential for analyzing requests/responses such as content.
 
 **Current version(0.x.x) only supports TSV format.**
@@ -16,7 +16,7 @@ This tool ignores fields that are not essential for analyzing requests/responses
 **Requires Java 1.8.x or above**
 
 ```
-# Install
+# Build
 
 ./gradlew shadowJar
 
